@@ -1,8 +1,4 @@
-<p align="center">
-    <i>🚀 <a href="https://keycloakify.dev">Keycloakify</a> v11 starter 🚀</i>
-    <br/>
-    <br/>
-</p>
+# École 18.06 flavored Keycloak theme
 
 # Quick start
 
