@@ -102,7 +102,7 @@
 }
 
 .kcLocaleListClass {
-    @apply absolute right-0 z-10 mt-2 py-1 w-56 origin-top-right rounded-md shadow-lg ring-1 focus:outline-hidden;
+    @apply absolute hidden right-0 z-10 mt-2 py-1 w-56 origin-top-right rounded-md shadow-lg ring-1 focus:outline-hidden;
     @apply bg-white dark:bg-gray-800 ring-black/5 dark:ring-white/5 dark:shadow-white/5;
 }
 
