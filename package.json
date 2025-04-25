@@ -2,6 +2,7 @@
     "name": "keycloakify-1806",
     "version": "0.0.1",
     "description": "École 18.06 flavored Keycloak theme",
+    "homepage": "https://github.com/ecole-1806/",
     "repository": {
         "type": "git",
         "url": "git://github.com/ecole-1806/keycloakify-1806.git"
@@ -17,11 +18,11 @@
     "license": "MIT",
     "keywords": [],
     "dependencies": {
-        "@tailwindcss/vite": "^4.0.17",
+        "@tailwindcss/vite": "^4.1.4",
         "keycloakify": "^11.8.23",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "tailwindcss": "^4.0.17"
+        "tailwindcss": "^4.1.4"
     },
     "devDependencies": {
         "@eslint/js": "^9.15.0",
