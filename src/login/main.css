@@ -88,8 +88,12 @@
     @apply bg-white dark:bg-gray-800;
 }
 
+.kcFormHeaderClass {
+    @apply flex flex-row-reverse justify-between;
+}
+
 .kcLocaleMainClass {
-    @apply mb-6 text-end;
+    @apply text-end;
 }
 
 .kcLocaleDropDownClass {
@@ -97,12 +101,25 @@
 }
 
 .kcLocaleDropDownClass button {
-    @apply inline-flex w-full justify-center gap-x-1.5 rounded-md px-3 py-2 text-sm font-semibold shadow-xs ring-1 ring-inset;
-    @apply bg-white dark:bg-gray-800 text-gray-900 dark:text-white ring-gray-300 dark:ring-white/10 hover:bg-gray-50 dark:hover:bg-white/10;
+    @apply flex gap-1 items-center text-sm leading-9 relative;
+    @apply text-gray-900 dark:text-white;
+}
+
+.kcLocaleDropDownClass button::before {
+    @apply absolute border-b inset-0 bottom-[11px] content-[""];
+    @apply border-gray-900 dark:border-white;
+}
+
+.kcLocaleDropDownClass button::after {
+    @apply inline-block content-["_v"] leading-normal transition;
+}
+
+.kcLocaleDropDownClass button[aria-expanded="true"]::after {
+    @apply rotate-180;
 }
 
 .kcLocaleListClass {
-    @apply absolute hidden right-0 z-10 mt-2 py-1 w-56 origin-top-right rounded-md shadow-lg ring-1 focus:outline-hidden;
+    @apply absolute hidden right-0 z-10 mt-1 py-1 origin-top-right rounded-sm shadow-lg ring-1 focus:outline-hidden;
     @apply bg-white dark:bg-gray-800 ring-black/5 dark:ring-white/5 dark:shadow-white/5;
 }
 
@@ -116,7 +133,7 @@
 }
 
 .kcFormHeaderClass h1 {
-    @apply text-center text-2xl/9 font-semibold tracking-tight;
+    @apply text-2xl/9 font-semibold tracking-tight;
     @apply text-gray-900 dark:text-white;
 }
 
@@ -130,7 +147,7 @@
 }
 
 .kcAlertClass {
-    @apply mb-4 text-center font-semibold tracking-tight;
+    @apply mb-4 font-semibold tracking-tight;
     @apply text-gray-900 dark:text-white;
     /* TODO */
 }
