@@ -90,6 +90,7 @@
 
 .kcFormHeaderClass {
     @apply flex flex-row-reverse justify-between;
+    @apply text-gray-900 dark:text-white;
 }
 
 .kcLocaleMainClass {
@@ -102,7 +103,6 @@
 
 .kcLocaleDropDownClass button {
     @apply flex gap-1 items-center text-sm leading-9 relative;
-    @apply text-gray-900 dark:text-white;
 }
 
 .kcLocaleDropDownClass button::before {
