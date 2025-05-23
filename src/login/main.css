@@ -227,8 +227,11 @@
     @apply text-brandblue hover:text-brandblue/80 dark:text-indigo-400 dark:hover:text-indigo-300;
 }
 
-#kc-form-buttons {
-    @apply flex w-full justify-center rounded-md px-3 py-1.5 text-sm/6 font-semibold shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2;
+.kcButtonClass {
+    @apply flex w-full justify-center rounded-md px-3 py-1.5 text-sm/6 font-semibold shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer;
+}
+
+.kcButtonPrimaryClass {
     @apply text-white;
     @apply bg-brandblue hover:bg-brandblue/80 dark:bg-indigo-500  dark:hover:bg-indigo-400 focus-visible:outline-brandblue/90 dark:focus-visible:outline-indigo-500;
 }
