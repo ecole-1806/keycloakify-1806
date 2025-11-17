@@ -66,6 +66,7 @@
 
 .kcLoginClass {
     @apply flex min-h-full flex-col justify-center py-8 md:py-12 sm:px-6 lg:px-8;
+    @apply text-gray-900 dark:text-white;
 }
 
 .kcHeaderClass {
