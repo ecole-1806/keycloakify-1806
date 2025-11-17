@@ -19,7 +19,7 @@
     "keywords": [],
     "dependencies": {
         "@tailwindcss/vite": "^4.1.11",
-        "keycloakify": "^11.8.49",
+        "keycloakify": "^11.9.11",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "tailwindcss": "^4.1.11"
